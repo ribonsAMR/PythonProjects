@@ -1,21 +1,21 @@
 """
 References:
-- Random module: 		https://docs.python.org/3/library/random.html
-- Random.choice: 		https://docs.python.org/3/library/random.html#random.choice
-- str.split() method: 		https://docs.python.org/3/library/stdtypes.html?#str.split
-- str.join() method: 		https://docs.python.org/3.6/library/stdtypes.html#str.join
-- Functions annotations: 	https://www.python.org/dev/peps/pep-3107/
-		  			They are just for explaining the code,
-		  			removing them won't affect the script.
-- Variable annotations: 	https://www.python.org/dev/peps/pep-0526/
-		  			As functions annotations, not necessary too
-		  			and can be removed.
-- filter function:		https://docs.python.org/3/library/functions.html#filter
+- Random module:			https://docs.python.org/3/library/random.html
+- Random.choice:			https://docs.python.org/3/library/random.html#random.choice
+- str.split() method:		https://docs.python.org/3/library/stdtypes.html?#str.split
+- str.join() method:		https://docs.python.org/3.6/library/stdtypes.html#str.join
+- Functions annotations:	https://www.python.org/dev/peps/pep-3107/
+								They are just for explaining the code,
+								removing them won't affect the script.
+- Variable annotations:		https://www.python.org/dev/peps/pep-0526/
+								As functions annotations, not necessary too
+								and can be removed.
+- filter function:			https://docs.python.org/3/library/functions.html#filter
 - lambda expression:		https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions
-  lambda simple tutorial: 	https://www.programiz.com/python-programming/anonymous-function
-- Global statment: 		https://docs.python.org/3.6/reference/simple_stmts.html#the-global-statement
-- String formating:		https://pyformat.info
-- KeyboardInterrupt: 		https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt
+  lambda simple tutorial:	https://www.programiz.com/python-programming/anonymous-function
+- Global statment:			https://docs.python.org/3.6/reference/simple_stmts.html#the-global-statement
+- String formating:			https://pyformat.info
+- KeyboardInterrupt:		https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt
 """
 
 import random
