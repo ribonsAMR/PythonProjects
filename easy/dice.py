@@ -1,10 +1,8 @@
 """
 References:
-
-- Random module: https://docs.python.org/3/library/random.html
-- Random.choice: https://docs.python.org/3/library/random.html#random.choice
-
-- str.lower(): https://docs.python.org/3.6/library/stdtypes.html#str.lower
+- Random module:	https://docs.python.org/3/library/random.html
+- Random.choice:	https://docs.python.org/3/library/random.html#random.choice
+- str.lower(): 		https://docs.python.org/3.6/library/stdtypes.html#str.lower
 """
 
 import random
