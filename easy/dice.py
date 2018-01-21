@@ -1,4 +1,5 @@
-"""References:
+"""
+References:
 
 - Random module: https://docs.python.org/3/library/random.html
 - Random.choice: https://docs.python.org/3/library/random.html#random.choice
