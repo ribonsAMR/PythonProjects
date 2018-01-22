@@ -57,7 +57,7 @@ def printable_mask():
 cleanup()
 
 try:
-	while count >= 0:
+	while True:
 		if not '_' in mask:
 			print("\nYou won!")
 			print("The word is: %s\n" %word)
