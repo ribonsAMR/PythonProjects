@@ -23,6 +23,8 @@
 You will be presented with a mask of the word, and the tries left before losing.<br>
 The tries are dynamically changing according to the left tries and the unknown characters.
 
-You can use text files for the `wordlist` variable in this line: `wordlist = "hangman ronaldo messi salah".split()`, replace it with the file content code: `open("filename").read()`<br>and adjust how the words are extracted from the file.
+You can use text files for the `wordlist` variable in this line: `wordlist = "hangman ronaldo messi salah".split()`, replace it with the file content code: `open("filename").read()`
+
+And adjust how the words are extracted from the file to create a list of seperate words.
 
 To stop the game, press CTRL+C.
