@@ -13,7 +13,7 @@
     - `random.randint()` function
     - `str.lower()` function
     - `KeyboardInterrupt` exception
-3. [Hangman](easy/hangman)
+3. [Hangman](easy/hangman)<br>
   using:
     - Function annotations
     - Variables annotations
