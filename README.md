@@ -26,4 +26,5 @@
     - `lambda` expression.
     - `Global` statement.
     - `KeyboardInterrupt` exception.
+
 **Feel free to contribute.**
