@@ -15,18 +15,18 @@ You will be asked for an input to stop or continue rolling: `"Roll? [y]/n: "`, a
 # The Design:
 ### Entry point:
 - The program loops till the user enters **"n"** to stop it.
-  ```
+  ```python
   while True:
     user_input = input("Roll? [y]/n: ")
   ```
 
 - Here the program checks if the user wants to stop it, by raising the `KeyboardInterrupt` exception, It will exit properly instead of duplicating the exit code twice.
-  ```
+  ```python
   if user_input.lower() == "n":
     raise KeyboardInterrupt # execute the exception and quit properly.
   ```
 - **The KeyboardInterrupt Exception Handler:**
-  ```
+  ```python
   except KeyboardInterrupt:
     print("\nGoodbye! 👋")
     exit(0)
@@ -35,7 +35,7 @@ You will be asked for an input to stop or continue rolling: `"Roll? [y]/n: "`, a
 ### Random choice:
 1. We import the `random` in the beginning.
 2. Initialize a variable called faces with numbers from `1 to 6` in
-```
+```python
 faces = [1, 2, 3, 4, 5, 6]
 # alternative: faces = list(range(1, 7))
 ```
