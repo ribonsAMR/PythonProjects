@@ -36,4 +36,4 @@ You will be asked for an input to stop or continue rolling: `"Roll? [y]/n: "`, a
 faces = [1, 2, 3, 4, 5, 6]
 # alternative: faces = list(range(1, 7))
 ```
-3. We randomly generate a number `random.choice(faces)` (Please check `random.choice()` reference above)
+3. We randomly generate an item from `face` variable `random.choice(faces)` (Please check `random.choice()` reference above)
