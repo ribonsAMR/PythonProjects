@@ -6,7 +6,7 @@
 - `KeyboardInterrupt`:		https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt
 
 ## How to use:
-`python3 dice.py`
+`python3.6 dice.py`, Change it to your Python version. Latest version is recommended.
 
 You will be asked for an input to stop or continue rolling: `"Roll? [y]/n: "`, and the default choice is **yes**.
 
