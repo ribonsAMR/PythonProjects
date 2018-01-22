@@ -25,6 +25,6 @@ The tries are dynamically changing according to the left tries and the unknown c
 
 You can use text files for the `wordlist` variable in this line: `wordlist = "hangman ronaldo messi salah".split()`, replace it with the file content code: `open("filename").read()`
 
-And adjust how the words are extracted from the file to create a list of seperate words.
+And adjust how the words are extracted from the file to create a list of separate words.
 
 To stop the game, press CTRL+C.
