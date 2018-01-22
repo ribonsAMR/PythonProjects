@@ -33,7 +33,7 @@ To stop the game, press CTRL+C.
 
 	2. The game starts with calling `cleanup()` function, which is used in other parts too.
 
-	#### `Cleanup()` function:
+	#### `cleanup()` function:
 	1. Initialize global variables `count, word, mask, success`
 
 	2. `success` counts the correctly guessed characters.
