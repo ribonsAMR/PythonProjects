@@ -15,5 +15,5 @@ You will be asked for an input to stop or continue rolling: `"Roll? [y]/n: "`, a
 Line 14:
 ```
 while True:
-		user_input = input("Roll? [y]/n: ")
+  user_input = input("Roll? [y]/n: ")
 ```
