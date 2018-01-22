@@ -12,8 +12,10 @@ You will be asked for an input to stop or continue rolling: `"Roll? [y]/n: "`, a
 ## The Design:
 ### Random:
 1. We import the `random` in the beginning.
-2. Initialize a variable called faces with numbers from `1 to 6` in ``` faces = [1, 2, 3, 4, 5, 6]
-\# alternative: faces = list(range(1, 7))
+2. Initialize a variable called faces with numbers from `1 to 6` in
+```
+faces = [1, 2, 3, 4, 5, 6]
+# alternative: faces = list(range(1, 7))
 ```
 3. We randomly generate a number `random.choice(faces)` (Please check `random.choice()` reference above)
 
