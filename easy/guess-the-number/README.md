@@ -39,11 +39,11 @@ You will be asked to input your guess or **"quit"** to exit the game.
 
   ```
   def safely_strint(_str):
-  try:
-  	return int(_str)
-  except Exception as e:
-  	print("Invalid input")
-  	return False
+    try:
+    	return int(_str)
+    except Exception as e:
+    	print("Invalid input")
+    	return False
 
   user_answer = input("I guessed a number from %d to %d, what is it? : " %(start, end))
 
@@ -70,9 +70,9 @@ You will be asked to input your guess or **"quit"** to exit the game.
 - ### KeyboardInterrupt Exception Handler:
   I put the exit code inside the `KeyboardInterrupt` exception handler and raise it when the user wants to quit, with exit code 0.
   <br>
-  
+
   ```
   except KeyboardInterrupt: # CTRL+C
-  	print("\nGoodbye! 👋")
-  	exit(0)
+    print("\nGoodbye! 👋")
+    exit(0)
   ```
