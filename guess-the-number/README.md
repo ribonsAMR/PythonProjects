@@ -23,7 +23,7 @@ You will be asked to input your guess or **"quit"** to exit the game.
   3. The `guess` function returns a random number using `randint` function from
   the `random` module (Please check the references).
 
-  ```
+  ```python
   def guess(start=1, limit=10):
     return random.randint(start, limit)
 
@@ -37,7 +37,7 @@ You will be asked to input your guess or **"quit"** to exit the game.
 
   2. Try to convert the user's input to an integer type value, using the `safely_strint` function, It returns an integer or `False`.
 
-  ```
+  ```python
   def safely_strint(_str):
     try:
     	return int(_str)
@@ -57,7 +57,7 @@ You will be asked to input your guess or **"quit"** to exit the game.
 
   2. If not off the limits, we compare them together and tells the user if the guess was correct or not.
 
-  ```
+  ```python
   if not start <= user_answer <= end:
     print("Your guess is off the limits.")
     continue
@@ -71,7 +71,7 @@ You will be asked to input your guess or **"quit"** to exit the game.
   I put the exit code inside the `KeyboardInterrupt` exception handler and raise it when the user wants to quit, with exit code 0.
   <br>
 
-  ```
+  ```python
   except KeyboardInterrupt: # CTRL+C
     print("\nGoodbye! 👋")
     exit(0)
