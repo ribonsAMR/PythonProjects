@@ -11,9 +11,21 @@ You will be asked for an input to stop or continue rolling: `"Roll? [y]/n: "`, a
 
 ## The Design:
 
-### Entery point:
-Line 14:
+- #### Entery point –– Line 14
+The program loops till the user enters **"n"** to stop it.
 ```
 while True:
   user_input = input("Roll? [y]/n: ")
+```
+
+- **Line 17:** Here the program checks if the user wants to stop it, by raising the `KeyboardInterrupt` exception, It will exit properly instead of duplicating the exit code twice.
+```
+if user_input.lower() == "n":
+  raise KeyboardInterrupt # execute the exception and quit properly.
+```
+- **The KeyboardInterrupt Exception Handler:**
+```
+except KeyboardInterrupt:
+  print("\nGoodbye! 👋")
+  exit(0)
 ```
