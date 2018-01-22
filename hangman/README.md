@@ -46,7 +46,7 @@ To stop the game, press CTRL+C.
 
 	6. `mask = list("-" * len(word))`, create a list of dashes according to the word's characters.
 
-	```
+	```python
 	def cleanup():
 		global count, word, mask, success
 		success = 0
@@ -69,7 +69,7 @@ To stop the game, press CTRL+C.
 
 	2. If the `char` variable is `None` or `False`, continue the loop, because the input was empty.
 
-	```
+	```python
 	char = input("Your guess: ")
 	char = char[0] if len(char) > 0 else None
 
@@ -84,7 +84,7 @@ To stop the game, press CTRL+C.
 
 	3. If it's in the `mask`, then tell the user that he guessed this character before, and skip the `count` decrement.
 
-	```
+	```python
 	if not char in mask:
 		if char in word:
 			edit_mask(word, char)
@@ -102,7 +102,7 @@ To stop the game, press CTRL+C.
 	3. `findall` uses the `filter` function to filter the character from the whole
 	word with the help of `lambda` function (please see the references above), and then, it returns the list of these characters and their indexes.
 
-	```
+	```python
 	def findall(word: str, char: str) -> list or bool:
 		if char in word:
 			result = filter(lambda i: i[1] == char, [i for i in enumerate(word)])
