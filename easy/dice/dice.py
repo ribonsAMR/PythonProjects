@@ -18,7 +18,6 @@ try:
 			raise KeyboardInterrupt # execute the exception and quit properly.
 
 		# Roll
-		# Reference: https://docs.python.org/3/library/random.html#random.choice
 		print(random.choice(faces))
 except KeyboardInterrupt:
 	print("\nGoodbye! 👋")
