@@ -34,17 +34,17 @@ To stop the game, press CTRL+C.
 	2. The game starts with calling `cleanup()` function, which is used in other parts too.
 
 	#### `Cleanup()` function:
-		1. Initialize global variables `count, word, mask, success`
+	1. Initialize global variables `count, word, mask, success`
 
-		2. `success` counts the correctly guessed characters.
+	2. `success` counts the correctly guessed characters.
 
-		3. mask is the hidden word form: `-----`.
+	3. mask is the hidden word form: `-----`.
 
-		4. count is number of tries and it dynamically changes for every word by multiplying the words length by 1.5.
+	4. count is number of tries and it dynamically changes for every word by multiplying the words length by 1.5.
 
-		5. `word = random.choice(wordlist)`, Randomly choose a word from the `wordlist` variable above.
+	5. `word = random.choice(wordlist)`, Randomly choose a word from the `wordlist` variable above.
 
-		6. `mask = list("-" * len(word))`, create a list of dashes according to the word's characters.
+	6. `mask = list("-" * len(word))`, create a list of dashes according to the word's characters.
 
 	```
 	def cleanup():
