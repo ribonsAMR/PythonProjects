@@ -94,3 +94,25 @@ To stop the game, press CTRL+C.
 
 	count -= 1
 	```
+- ### `edit_mask` and `findall` functions:
+	1. `edit_mask` calls `findall` function to replace all the character's places in the `mask`
+
+	2. `findall` finds the all the places of this character, because `str.find()` only finds the first index.
+
+	3. `findall` uses the `filter` function to filter the correct character from the whole
+	word, and then, it returns the list of these characters and their indexes.
+
+	```
+	def findall(word: str, char: str) -> list or bool:
+	if char in word:
+		result = filter(lambda i: i[1] == char, [i for i in enumerate(word)])
+		return list(result)
+	else:
+		return False
+
+	def edit_mask(word: str, char: str):
+	global mask, success
+	for i in findall(word, char):
+		mask[i[0]] = i[1]
+		success += 1
+	```

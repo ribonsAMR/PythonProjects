@@ -20,6 +20,8 @@ References:
 
 import random
 
+global count, word, mask, success
+
 wordlist = "hangman ronaldo messi salah".split()
 # wordlist = open('filename.txt').read()
 
@@ -39,7 +41,7 @@ def findall(word: str, char: str) -> list or bool:
 		return False
 
 def edit_mask(word: str, char: str):
-	global success
+	global mask, success
 	for i in findall(word, char):
 		mask[i[0]] = i[1]
 		success += 1
@@ -60,13 +62,13 @@ try:
 	while True:
 		if not '_' in mask:
 			print("\nYou won!")
-			print("The word is: %s\n" %word)
+			print("The word was: %s\n" %word)
 			cleanup()
 			continue
 			
 		if count == 0 or count < len(word) - success:
 			print("\nYou lost, try again.")
-			print("The word is: %s\n" %word)
+			print("The word was: %s\n" %word)
 			cleanup()
 			continue
 
