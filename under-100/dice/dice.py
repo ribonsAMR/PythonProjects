@@ -1,11 +1,3 @@
-"""
-References:
-- Random module:	https://docs.python.org/3/library/random.html
-- Random.choice:	https://docs.python.org/3/library/random.html#random.choice
-- str.lower(): 		https://docs.python.org/3.6/library/stdtypes.html#str.lower
-- KeyboardInterrupt:https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt
-"""
-
 import random
 
 faces = [1, 2, 3, 4, 5, 6]
