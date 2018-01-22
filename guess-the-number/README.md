@@ -1,7 +1,7 @@
 # Guess The number
 ## References:
-- `Random` module: 	https://docs.python.org/3/library/random.html
-- `Random.randint`: 	https://docs.python.org/3.6/library/random.html#random.randint
+- `random` module: 	https://docs.python.org/3/library/random.html
+- `random.randint`: 	https://docs.python.org/3.6/library/random.html#random.randint
 - `str.lower()`: 		https://docs.python.org/3.6/library/stdtypes.html#str.lower
 - `KeyboardInterrupt`:		https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt
 
