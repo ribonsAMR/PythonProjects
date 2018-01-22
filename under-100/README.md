@@ -7,14 +7,14 @@
     - `str.lower()` function
     - `KeyboardInterrupt` exception
 
-2. [Guess the number](/guess-the-number)––Easy <br>
+2. [Guess the number](/under-100/guess-the-number)––Easy <br>
   using:
     - `random` module
     - `random.randint()` function
     - `str.lower()` function
     - `KeyboardInterrupt` exception
 
-3. [Hangman](/hangman)––A little bit complicated<br>
+3. [Hangman](/under-100/hangman)––A little bit complicated<br>
   using:
     - Function annotations
     - Variables annotations
