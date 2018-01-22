@@ -1,6 +1,6 @@
 # Projects under 100 source line of code (sloc).
 ### Projects:
-1. [Dice Rolling](/dice)––Easy<br>
+1. [Dice Rolling](/under-100/dice)––Easy<br>
   using:
     - `random` module
     - `random.choice()` function
