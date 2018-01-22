@@ -11,8 +11,7 @@ You will be asked for an input to stop or continue rolling: `"Roll? [y]/n: "`, a
 
 ## The Design:
 
-- #### Entery point –– Line 14
-The program loops till the user enters **"n"** to stop it.
+- **Entery point –– Line 14: **The program loops till the user enters **"n"** to stop it.
   ```
   while True:
     user_input = input("Roll? [y]/n: ")
