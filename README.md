@@ -7,13 +7,15 @@
     - `random.choice()` function
     - `str.lower()` function
     - `KeyboardInterrupt` exception
+
 2. [Guess the number](easy/guess-the-number)––Easy <br>
   using:
     - `random` module
     - `random.randint()` function
     - `str.lower()` function
     - `KeyboardInterrupt` exception
-3. [Hangman](easy/hangman)––Little bit complicated<br>
+
+3. [Hangman](easy/hangman)––A little bit complicated<br>
   using:
     - Function annotations
     - Variables annotations
