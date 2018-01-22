@@ -1,7 +1,7 @@
 # Hangman
 ## References:
-- `Random` module:			https://docs.python.org/3/library/random.html
-- `Random.choice`:			https://docs.python.org/3/library/random.html#random.choice
+- `random` module:			https://docs.python.org/3/library/random.html
+- `random.choice`:			https://docs.python.org/3/library/random.html#random.choice
 - `str.split()` method:		https://docs.python.org/3/library/stdtypes.html?#str.split
 - `str.join()` method:		https://docs.python.org/3.6/library/stdtypes.html#str.join
 - Functions annotations:	https://www.python.org/dev/peps/pep-3107/
