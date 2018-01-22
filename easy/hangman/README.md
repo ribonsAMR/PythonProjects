@@ -14,7 +14,7 @@
 - `KeyboardInterrupt`:		https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt
 
 ## How to use:
-`python3 hangman.py`
+`python3.6 hangman.py`, Change it to your Python version. Latest version is recommended.
 
 You will be presented with a mask of the word, and the tries left before losing.<br>
 The tries are dynamically changing according to the left tries and the unknown characters.
