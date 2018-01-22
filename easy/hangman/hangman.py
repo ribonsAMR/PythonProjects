@@ -63,6 +63,7 @@ try:
 			print("The word is: %s\n" %word)
 			cleanup()
 			continue
+			
 		if count == 0 or count < len(word) - success:
 			print("\nYou lost, try again.")
 			print("The word is: %s\n" %word)

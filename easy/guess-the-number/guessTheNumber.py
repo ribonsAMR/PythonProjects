@@ -30,7 +30,7 @@ try:
 		"""
 		user_answer = input("I guessed a number from %d to %d, what is it? : " %(start, end))
 		if user_answer.lower() == "quit":
-			exit(0)
+			raise KeyboardInterrupt # execute the exception and quit properly.
 
 		user_answer = safely_strint(user_answer) # convert the input to int type.
 
