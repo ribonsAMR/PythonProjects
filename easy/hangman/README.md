@@ -8,7 +8,7 @@
 - Variable annotations:		https://www.python.org/dev/peps/pep-0526/
 - `filter` function:			https://docs.python.org/3/library/functions.html#filter
 - `lambda` expression:		https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions
-  `lambda` simple tutorial:	https://www.programiz.com/python-programming/anonymous-function
+- `lambda` simple tutorial:	https://www.programiz.com/python-programming/anonymous-function
 - `Global` statement:			https://docs.python.org/3.6/reference/simple_stmts.html#the-global-statement
 - String formating:			https://pyformat.info
 - `KeyboardInterrupt`:		https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt
