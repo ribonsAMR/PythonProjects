@@ -9,6 +9,8 @@
 
 You will be asked for an input to stop or continue rolling: `"Roll? [y]/n: "`, and the default choice is **yes**.
 
+<hr>
+
 # The Design:
 ### Entry point:
 - <b>Line 14:</b> The program loops till the user enters **"n"** to stop it.
