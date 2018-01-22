@@ -15,13 +15,13 @@
     - `KeyboardInterrupt` exception.
 3. [Hangman](easy/hangman)
   using:
+    - Function annotations.
+    - Variables annotations.
+    - String formatting.
     - `random` module.
     - `random.choice()` function.
     - `str.split()` function.
     - `str.join()` function.
-    - Function annotations.
-    - Variables annotations.
-    - String formatting.
     - `filter()` function.
     - `lambda` expression.
     - `Global` statement.
