@@ -22,13 +22,14 @@ try:
 		Alternative: input("I guessed a number from {} to {}, what is it? : ".format(start, end))
 		"""
 		user_answer = input("I guessed a number from %d to %d, what is it? : " %(start, end))
+		
+		if not user_answer:
+			continue
+		
 		if user_answer.lower() == "quit":
 			raise KeyboardInterrupt # execute the exception and quit properly.
 
 		user_answer = safely_strint(user_answer) # convert the input to int type.
-
-		if not user_answer == 0 and not user_answer:
-			continue
 
 		if not start <= user_answer <= end:
 			print("Your guess is off the limits.")
