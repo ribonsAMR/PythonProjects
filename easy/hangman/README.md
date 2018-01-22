@@ -33,7 +33,7 @@ To stop the game, press CTRL+C.
 
 	2. The game starts with calling `cleanup()` function, which is used in other parts too.
 
-	#### `Cleanup() function`:
+	#### `Cleanup()` function:
 		1. Initialize global variables `count, word, mask, success`
 
 		2. `success` counts the correctly guessed characters.
@@ -83,7 +83,7 @@ To stop the game, press CTRL+C.
 	2. If it's in the `word`, then edit the `mask` to the new look.
 
 	3. If it's in the `mask`, then tell the user that he guessed this character before, and skip the `count` decrement.
-	
+
 	```
 	if not char in mask:
 		if char in word:
