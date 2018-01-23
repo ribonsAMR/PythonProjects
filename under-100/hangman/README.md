@@ -31,14 +31,12 @@ To stop the game, press CTRL+C.
 <hr>
 
 # The Design:
-
 ### Entry point:
-
 	1. The program loops till the user stops it using CTRL+C.
 
 	2. The game starts with calling `cleanup()` function, which is used in other parts too.
 
-	#### `cleanup()` function:
+### `cleanup()` function:
 
 	1. Initialize global variables `count, word, mask, success`
 
