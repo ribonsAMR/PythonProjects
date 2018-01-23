@@ -14,39 +14,39 @@ You will be asked to enter the file name in the beginning, the script uses the `
 
 # The Design:
 ### Entry point - `main()`:
-	1. We get the filename and store it in the `filename` variable, if the input was empty, raise the `KeyboardInterrupt` expection and exit the script properly.
+1. We get the filename and store it in the `filename` variable, if the input was empty, raise the `KeyboardInterrupt` expection and exit the script properly.
 
-		```python
-		filename = input("filename (leave blank to exit): ")
-			if not filename:
-				raise KeyboardInterrupt
-		```
+	```python
+	filename = input("filename (leave blank to exit): ")
+		if not filename:
+			raise KeyboardInterrupt
+	```
 
-	2. Now we open the file in append+ mode via the variable `f` (creates the file if it doesn't exists), and we declare a variable called `content_to_write` to store the user's data before saving or canceling the changes.
+2. Now we open the file in append+ mode via the variable `f` (creates the file if it doesn't exists), and we declare a variable called `content_to_write` to store the user's data before saving or canceling the changes.
 
-		```python
-		with open(filename, 'a+') as f:
-			content_to_write = ""
-		```
+	```python
+	with open(filename, 'a+') as f:
+		content_to_write = ""
+	```
 
-	3. The user will keep entering text till he enters `-w` to stop it or `-w` to save the changes.
+3. The user will keep entering text till he enters `-w` to stop it or `-w` to save the changes.
 
-		```python
-		while True:
-			user_input = input("-> ")
-		```
+	```python
+	while True:
+		user_input = input("-> ")
+	```
 
-	4. By default, every loop, add the new input to the last ones.
+4. By default, every loop, add the new input to the last ones.
 
-		```python
-		content_to_write += user_input + '\n'
-		```
+	```python
+	content_to_write += user_input + '\n'
+	```
 
-	5. And If the user enters `-w`, it writes the text in `content_to_write` to the file `f`, and breaks the loop to back to the main loop (filename loop).
+5. And If the user enters `-w`, it writes the text in `content_to_write` to the file `f`, and breaks the loop to back to the main loop (filename loop).
 
-		```python
-		if user_input.lower() == "-w":
-			f.write(content_to_write)
-			print("Changes saved.")
-			break
-		```
+	```python
+	if user_input.lower() == "-w":
+		f.write(content_to_write)
+		print("Changes saved.")
+		break
+	```
