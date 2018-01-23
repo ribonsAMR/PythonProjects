@@ -38,37 +38,41 @@ def printable_mask():
 
 cleanup()
 
-try:
-	while True:
-		if not '_' in mask:
-			print("\nYou won!")
-			print("The word was: %s\n" %word)
-			cleanup()
-			continue
-			
-		if count == 0 or count < len(word) - success:
-			print("\nYou lost, try again.")
-			print("The word was: %s\n" %word)
-			cleanup()
-			continue
+def main():
+	try:
+		while True:
+			if not '_' in mask:
+				print("\nYou won!")
+				print("The word was: %s\n" %word)
+				cleanup()
+				continue
+				
+			if count == 0 or count < len(word) - success:
+				print("\nYou lost, try again.")
+				print("The word was: %s\n" %word)
+				cleanup()
+				continue
 
-		print(printable_mask(), "[Tries left: %d]" %(count - (len(word) - success)))
+			print(printable_mask(), "[Tries left: %d]" %(count - (len(word) - success)))
 
-		char = input("Your guess: ")
-		char = char[0] if len(char) > 0 else None
+			char = input("Your guess: ")
+			char = char[0] if len(char) > 0 else None
 
-		if not char:
-			continue
+			if not char:
+				continue
 
-		if not char in mask:
-			if char in word:
-				edit_mask(word, char)
-		else:
-			print("Guessed before.")
-			continue
+			if not char in mask:
+				if char in word:
+					edit_mask(word, char)
+			else:
+				print("Guessed before.")
+				continue
 
-		count -= 1
+			count -= 1
 
-except KeyboardInterrupt:
-	print("\nGoodbye! 👋")
-	exit(0)
+	except KeyboardInterrupt:
+		print("\nGoodbye! 👋")
+		exit(0)
+
+if __name__ == '__main__':
+	main()
