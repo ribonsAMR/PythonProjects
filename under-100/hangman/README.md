@@ -1,5 +1,7 @@
 # Hangman
+
 ## References:
+
 - `random` module:			https://docs.python.org/3/library/random.html
 - `random.choice`:			https://docs.python.org/3/library/random.html#random.choice
 - `str.split()` method:		https://docs.python.org/3/library/stdtypes.html?#str.split
@@ -14,6 +16,7 @@
 - `KeyboardInterrupt`:		https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt
 
 ## How to use:
+
 `python3.6 hangman.py`, Change it to your Python version. Latest version is recommended.
 
 You will be presented with a mask of the word, and the tries left before losing.<br>
@@ -28,12 +31,15 @@ To stop the game, press CTRL+C.
 <hr>
 
 # The Design:
-- ### Entry point:
+
+### Entry point:
+
 	1. The program loops till the user stops it using CTRL+C.
 
 	2. The game starts with calling `cleanup()` function, which is used in other parts too.
 
 	#### `cleanup()` function:
+
 	1. Initialize global variables `count, word, mask, success`
 
 	2. `success` counts the correctly guessed characters.
@@ -59,12 +65,14 @@ To stop the game, press CTRL+C.
 		while True"
 	```
 
-- ### Win and lose cases:
+### Win and lose cases:
+
 	1. `if not '_' in mask:`, when there's no any dashes left in the mask, then the user won the game.
 
 	2. `if count == 0 or count < len(word) - success:`, whether the original tries number equals zero, or the it's less the left unknown characters number, then, the user lost the game.
 
-- ### Validate the input:
+### Validate the input:
+
 	1. Get only the first character from the input, If there was no input, set the `char` variable to `None`.
 
 	2. If the `char` variable is `None` or `False`, continue the loop, because the input was empty.
@@ -77,7 +85,8 @@ To stop the game, press CTRL+C.
 		continue
 	```
 
-- ### Validate the guess:
+### Validate the guess:
+
 	1. If the character entered wasn't in the `mask`, check if it's in the `word`.
 
 	2. If it's in the `word`, then edit the `mask` to the new look.
@@ -94,7 +103,9 @@ To stop the game, press CTRL+C.
 
 	count -= 1
 	```
-- ### `edit_mask` and `findall` functions:
+
+### `edit_mask` and `findall` functions:
+
 	1. `edit_mask` calls `findall` function to replace all the character's places in the `mask`.
 
 	2. `findall` finds the all the places of this character, because `str.find()` only finds the first index.
