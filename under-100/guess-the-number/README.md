@@ -14,7 +14,7 @@ You will be asked to input your guess or **"quit"** to exit the game.
 <hr>
 
 # The Design:
-- ### Entry point:
+### Entry point - `main()` function:
   1. The program loops till the user stops it.
 
   2. The default range of guessing is `0 to 20`, then we call the `guess` function
@@ -32,7 +32,7 @@ You will be asked to input your guess or **"quit"** to exit the game.
       start, end = 0, 20
       number = guess(start, end)
   ```
-- ### Checking the input validity:
+### Checking the input validity:
   1. Taking the input from the user and check if it is **quit** to stop the program by raising the `KeyboardInterrupt` exception, if not, continue.
 
   2. Try to convert the user's input to an integer type value, using the `safely_strint` function, It returns an integer or `False`.
@@ -52,7 +52,7 @@ You will be asked to input your guess or **"quit"** to exit the game.
 
   user_answer = safely_strint(user_answer)
   ```
-- ### Comparing the input with the guessed number:
+### Comparing the input with the guessed number:
   1. First, we check if the input is off the limits and warn the user then cancel the current loop and continue.
 
   2. If not off the limits, we compare them together and tells the user if the guess was correct or not.
@@ -67,7 +67,7 @@ You will be asked to input your guess or **"quit"** to exit the game.
   else:
     print("Wrong, it was %d, try again." %number)
   ```
-- ### KeyboardInterrupt Exception Handler:
+### KeyboardInterrupt Exception Handler:
   I put the exit code inside the `KeyboardInterrupt` exception handler and raise it when the user wants to quit, with exit code 0.
   <br>
 

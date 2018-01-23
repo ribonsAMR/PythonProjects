@@ -13,7 +13,7 @@ You will be asked for an input to stop or continue rolling: `"Roll? [y]/n: "`, a
 <hr>
 
 # The Design:
-### Entry point:
+### Entry point - `main()` function:
 - The program loops till the user enters **"n"** to stop it.
   ```python
   while True:
