@@ -13,7 +13,7 @@ You will be asked to enter the file name in the beginning, the script uses the `
 `-c` to cancel the changes.
 
 # The Design:
-- ### Entry point - `main()`:
+### Entry point - `main()`:
 	1. We get the filename and store it in the `filename` variable, if the input was empty, raise the `KeyboardInterrupt` expection and exit the script properly.
 
 		```python
