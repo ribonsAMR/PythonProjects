@@ -1,7 +1,7 @@
 """
 Using Threads, Lock and Queues
 """
-from queue import Queue, Empty
+from queue import Queue
 from threading import Thread, Lock
 from urllib.request import urlopen, urlparse
 import os, time
