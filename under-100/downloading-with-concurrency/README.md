@@ -5,8 +5,8 @@
 **General references [here](/../../#general-references-important)**
 
 - `threading.Thread`: https://docs.python.org/3/library/threading.html#threading.Thread
-- `Thread.start()`: 
-- `Thread.join()`:
+- `Thread.start()`: https://docs.python.org/3/library/threading.html#threading.Thread.start
+- `Thread.join()`: https://docs.python.org/3/library/threading.html#threading.Thread.join
 - `threading.Lock`: https://docs.python.org/3/library/threading.html#lock-objects
 - `queue.Queue`: https://docs.python.org/3/library/queue.html#module-queue
 - `urllib.request.urlopen`: https://docs.python.org/3/library/urllib.request.html#urllib.request.urlopen
@@ -21,7 +21,8 @@
 4. https://agiliq.com/blog/2013/09/understanding-threads-in-python/
 
 ## How to use:
-`python3.6 dler.py`
+Using Threads: `python3.6 dler.py`
+Using Queues: `python3.6 dler2.py`
 
 You will be asked to enter the urls you want to download, leaving the line blank will stop the input process and will start the downloading, `-c` will cancel the input process and get back to the main loop.
 
