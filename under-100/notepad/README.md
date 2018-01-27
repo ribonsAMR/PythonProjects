@@ -1,7 +1,7 @@
 # Simple Notepad
 
 ## References:
-Nothing new, look in the general references [here](/).
+Nothing new, look in the general references [here](../).
 
 ## How to use:
 `python3.6 notepad.py`.
