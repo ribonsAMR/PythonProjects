@@ -1,5 +1,8 @@
 # Projects under 100 source line of code (sloc).
 **Make sure to check out the [notebooks](http://jupyter.org/install) tutorials for the projects.**
+
+**General references [here](/../../#general-references-important)**
+
 ### Projects:
 1. [Dice Rolling](/under-100/dice)––Easy<br>
     using:
