@@ -4,8 +4,6 @@
 
 - `random` module: 	https://docs.python.org/3/library/random.html
 - `random.randint`: 	https://docs.python.org/3.6/library/random.html#random.randint
-- `str.lower()`: 		https://docs.python.org/3.6/library/stdtypes.html#str.lower
-- `KeyboardInterrupt`:		https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt
 
 ## How to use:
 `python3.6 guessthenumber.py`, Change it to your Python version. Latest version is recommended.

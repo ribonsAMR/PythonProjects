@@ -53,6 +53,12 @@ def take_urls() -> "list of urls":
 
 		urls.append(user_input)
 
+	"""
+	if urls:
+		return urls
+	else:
+		return False
+	"""
 	return urls if urls else False
 
 def main():

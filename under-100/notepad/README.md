@@ -1,8 +1,7 @@
 # Simple Notepad
 
 ## References:
-- `open()` function: 	https://docs.python.org/3/library/functions.html#open
-- `KeyboardInterrupt`:	https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt
+Nothing new, look in the general references (here)[].
 
 ## How to use:
 `python3.6 notepad.py`.

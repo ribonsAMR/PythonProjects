@@ -4,16 +4,6 @@
 
 - `random` module:			https://docs.python.org/3/library/random.html
 - `random.choice`:			https://docs.python.org/3/library/random.html#random.choice
-- `str.split()` method:		https://docs.python.org/3/library/stdtypes.html?#str.split
-- `str.join()` method:		https://docs.python.org/3.6/library/stdtypes.html#str.join
-- Functions annotations:	https://www.python.org/dev/peps/pep-3107/
-- Variable annotations:		https://www.python.org/dev/peps/pep-0526/
-- `filter` function:			https://docs.python.org/3/library/functions.html#filter
-- `lambda` expression:		https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions
-- `lambda` simple tutorial:	https://www.programiz.com/python-programming/anonymous-function
-- `Global` statement:			https://docs.python.org/3.6/reference/simple_stmts.html#the-global-statement
-- String formating:			https://pyformat.info
-- `KeyboardInterrupt`:		https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt
 
 ## How to use:
 `python3.6 hangman.py`, Change it to your Python version. Latest version is recommended.

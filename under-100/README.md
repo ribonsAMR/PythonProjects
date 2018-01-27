@@ -4,15 +4,15 @@
 1. [Dice Rolling](/under-100/dice)––Easy<br>
     using:
     - `random` module
-    - `random.choice()` function
-    - `str.lower()` function
+    - `random.choice()` method
+    - `str.lower()` method
     - `KeyboardInterrupt` exception
 
 2. [Guess the number](/under-100/guess-the-number)––Easy <br>
     using:
     - `random` module
-    - `random.randint()` function
-    - `str.lower()` function
+    - `random.randint()` method
+    - `str.lower()` method
     - `KeyboardInterrupt` exception
 
 3. [Simple Notepad/TextEditor](/under-100/notepad)––Easy <br>
@@ -26,9 +26,9 @@
     - Variables annotations
     - String formatting
     - `random` module.
-    - `random.choice()` function.
-    - `str.split()` function.
-    - `str.join()` function.
+    - `random.choice()` method.
+    - `str.split()` method.
+    - `str.join()` method.
     - `filter()` function.
     - `lambda` expression.
     - `Global` statement.
