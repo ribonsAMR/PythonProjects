@@ -1,4 +1,4 @@
-# Downloading using Threads
+# Downloading using Threads and Queues
 
 ## References:
 
