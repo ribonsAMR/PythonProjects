@@ -21,7 +21,7 @@
 4. https://agiliq.com/blog/2013/09/understanding-threads-in-python/
 
 ## How to use:
-Using Threads: `python3.6 dler.py`
+Using Threads: `python3.6 dler.py`<br>
 Using Queues: `python3.6 dler2.py`
 
 You will be asked to enter the urls you want to download, leaving the line blank will stop the input process and will start the downloading, `-c` will cancel the input process and get back to the main loop.
