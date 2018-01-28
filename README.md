@@ -92,4 +92,4 @@
 - [Python `
 SyntaxError: unexpected character after line continuation character` occurring?](https://www.quora.com/Python-SyntaxError-unexpected-character-after-line-continuation-character-occurring/answer/Amr-Essam-14)
 
-- [What does the error: `IndexError: list index out of range` imply in the following piece of code?](https://www.quora.com/What-does-the-error-IndexError-list-index-out-of-range-imply-in-the-following-piece-of-code/answer/Amr-Essam-14)
+- [What does the error: `IndexError: list index out of range` imply?](https://www.quora.com/What-does-the-error-IndexError-list-index-out-of-range-imply-in-the-following-piece-of-code/answer/Amr-Essam-14)
