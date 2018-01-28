@@ -14,7 +14,7 @@
 
 ### Methods, functions, statements and other things you will face in the scripts:
 
-- [inline if statement \(ternary operator\)](https://docs.python.org/3/reference/expressions.html?highlight=ternary#conditional-expressions)
+- [Inline if statement \(ternary operator\)](https://docs.python.org/3/reference/expressions.html?highlight=ternary#conditional-expressions)
 - [Classes](https://docs.python.org/3/reference/compound_stmts.html#class-definitions)
 - [Functions Annotations](https://www.python.org/dev/peps/pep-3107/)
 - [Variable Annotations](https://www.python.org/dev/peps/pep-0526/)
