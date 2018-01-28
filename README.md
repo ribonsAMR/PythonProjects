@@ -11,7 +11,7 @@
 | [Hangman Game](/under-100/hangman) | •• |
 | [Downloading using Threads](/under-100/downloading-with-concurrency) | •••• |
 
-## General References (Important):
+## General References:
 
 ### Methods, functions, statements and other things you will face in the scripts:
 
@@ -28,5 +28,4 @@
 - [`lambda` Simple tutorial](https://www.programiz.com/python-programming/anonymous-function)
 - [`global` Statement](https://docs.python.org/3.6/reference/simple_stmts.html#the-global-statement)
 - [`open()` Function](https://docs.python.org/3/library/functions.html#open)
-- [`KeyboardInterrupt` Exception](https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt)
 - [`KeyboardInterrupt` Exception](https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt)
