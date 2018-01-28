@@ -7,7 +7,7 @@ init(autoreset=True)
 general_pattern = "<#?\w+>"
 
 
-#Hashtage sign (#) indicates that this variable equals the previous variable.
+# Hashtage sign (#) indicates that this variable equals the previous variable.
 
 text = """I don't know who you are. I don't know what you want.
 If you are looking for <noun>, I can tell you I don't have money.
