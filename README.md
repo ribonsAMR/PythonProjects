@@ -89,7 +89,7 @@
 - [Why can't you remove elements from a list with a for loop, but you can with a while loop?](https://www.quora.com/In-Python-why-cant-you-remove-elements-from-a-list-with-a-for-loop-but-you-can-with-a-while-loop/answer/Amr-Essam-14)
 
 #### Errors:
-- [Python ```python
-"SyntaxError: unexpected character after line continuation character"``` occurring?](https://www.quora.com/Python-SyntaxError-unexpected-character-after-line-continuation-character-occurring/answer/Amr-Essam-14)
+- [Python `
+SyntaxError: unexpected character after line continuation character` occurring?](https://www.quora.com/Python-SyntaxError-unexpected-character-after-line-continuation-character-occurring/answer/Amr-Essam-14)
 
-- [What does the error: "IndexError: list index out of range" imply in the following piece of code?](https://www.quora.com/What-does-the-error-IndexError-list-index-out-of-range-imply-in-the-following-piece-of-code/answer/Amr-Essam-14)
+- [What does the error: `IndexError: list index out of range` imply in the following piece of code?](https://www.quora.com/What-does-the-error-IndexError-list-index-out-of-range-imply-in-the-following-piece-of-code/answer/Amr-Essam-14)
