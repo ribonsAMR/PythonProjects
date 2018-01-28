@@ -1,5 +1,4 @@
 # PythonProjects
-#### These are some well-detailed projects written in Python for beginners and learners in general, with variety in difficulty levels.
 
 ## Projects under 100 lines of code:
 
@@ -12,8 +11,6 @@
 | [Downloading using Threads](/under-100/downloading-with-concurrency) | •••• |
 
 ## General References:
-
-### Methods, functions, statements and other things you will face in the scripts:
 
 - [Inline if statement \(ternary operator\)](https://docs.python.org/3/reference/expressions.html?highlight=ternary#conditional-expressions)
 - [Classes](https://docs.python.org/3/reference/compound_stmts.html#class-definitions)
