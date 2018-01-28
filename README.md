@@ -8,7 +8,7 @@
 | [Guess The Number Game](/<100/guess-the-number) | • |
 | [Simple Notepad/TextEditor](/<100/notepad) | • |
 | [Hangman Game](/<100/hangman) | •• |
-| [Downloading using Concurrency](/<100/downloading-with-concurrency) | •••• |
+| [Downloading using Concurrency](/<100/downloading-with-concurrency) | ••• |
 
 ### General References:
 
