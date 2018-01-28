@@ -4,11 +4,11 @@
 
 | Name | Difficulty (1 to 10)|
 | :------------- | :------------- |
-| [Dice Rolling Game](/under-100/dice) | • |
-| [Guess The Number Game](/under-100/guess-the-number) | • |
-| [Simple Notepad/TextEditor](/under-100/notepad) | • |
-| [Hangman Game](/under-100/hangman) | •• |
-| [Downloading using Threads](/under-100/downloading-with-concurrency) | •••• |
+| [Dice Rolling Game](/<100/dice) | • |
+| [Guess The Number Game](/<100/guess-the-number) | • |
+| [Simple Notepad/TextEditor](/<100/notepad) | • |
+| [Hangman Game](/<100/hangman) | •• |
+| [Downloading using Concurrency](/<100/downloading-with-concurrency) | •••• |
 
 ### General References:
 

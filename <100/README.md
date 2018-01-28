@@ -1,38 +1,11 @@
-# Projects under 100 source line of code (sloc).
-**Make sure to check out the [notebooks](http://jupyter.org/install) tutorials for the projects.**
+# Projects under 100 lines of code.
 
 **General references [here](/../../#general-references-important)**
 
-### Projects:
-1. [Dice Rolling](/under-100/dice)––Easy<br>
-    using:
-    - `random` module
-    - `random.choice()` method
-    - `str.lower()` method
-    - `KeyboardInterrupt` exception
-
-2. [Guess the number](/under-100/guess-the-number)––Easy <br>
-    using:
-    - `random` module
-    - `random.randint()` method
-    - `str.lower()` method
-    - `KeyboardInterrupt` exception
-
-3. [Simple Notepad/TextEditor](/under-100/notepad)––Easy <br>
-    using:
-    - `open()` function.
-    - `KeyboardInterrupt` exception.
-
-4. [Hangman](/under-100/hangman)––A little bit complicated<br>
-    using:
-    - Function annotations
-    - Variables annotations
-    - String formatting
-    - `random` module.
-    - `random.choice()` method.
-    - `str.split()` method.
-    - `str.join()` method.
-    - `filter()` function.
-    - `lambda` expression.
-    - `Global` statement.
-    - `KeyboardInterrupt` exception.
+| Name | Difficulty (1 to 10)|
+| :------------- | :------------- |
+| [Dice Rolling Game](/<100/dice) | • |
+| [Guess The Number Game](/<100/guess-the-number) | • |
+| [Simple Notepad/TextEditor](/<100/notepad) | • |
+| [Hangman Game](/<100/hangman) | •• |
+| [Downloading using Concurrency](/<100/downloading-with-concurrency) | •••• |
