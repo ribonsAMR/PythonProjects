@@ -15,6 +15,7 @@
 
 ### Methods, functions, statements and other things you will face in the scripts:
 
+<<<<<<< HEAD
 - [inline if statement \(ternary operator\)](https://docs.python.org/3/reference/expressions.html?highlight=ternary#conditional-expressions)
 - [classes](https://docs.python.org/3/reference/compound_stmts.html#class-definitions)
 - [Functions annotations](https://www.python.org/dev/peps/pep-3107/)
@@ -28,4 +29,19 @@
 - [`lambda` simple tutorial](https://www.programiz.com/python-programming/anonymous-function)
 - [`global` statement](https://docs.python.org/3.6/reference/simple_stmts.html#the-global-statement)
 - [`open()` function](https://docs.python.org/3/library/functions.html#open)
+=======
+- [Inline if statement \(ternary operator\)](https://docs.python.org/3/reference/expressions.html?highlight=ternary#conditional-expressions)
+- [Classes](https://docs.python.org/3/reference/compound_stmts.html#class-definitions)
+- [Functions Annotations](https://www.python.org/dev/peps/pep-3107/)
+- [Variable Annotations](https://www.python.org/dev/peps/pep-0526/)
+- [String Formating](https://pyformat.info)
+- [`str.lower()` Method](https://docs.python.org/3.6/library/stdtypes.html#str.lower)
+- [`str.split()` Method](https://docs.python.org/3/library/stdtypes.html?#str.split)
+- [`str.join()` Method](https://docs.python.org/3.6/library/stdtypes.html#str.join)
+- [`filter` Function](https://docs.python.org/3/library/functions.html#filter)
+- [`lambda` Expression](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
+- [`lambda` Simple tutorial](https://www.programiz.com/python-programming/anonymous-function)
+- [`global` Statement](https://docs.python.org/3.6/reference/simple_stmts.html#the-global-statement)
+- [`open()` Function](https://docs.python.org/3/library/functions.html#open)
+>>>>>>> 288a35d93066920ca29cd42cd065f047ca317ae5
 - [`KeyboardInterrupt` Exception](https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt)
