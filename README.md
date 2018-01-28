@@ -29,6 +29,4 @@
 - [`global` Statement](https://docs.python.org/3.6/reference/simple_stmts.html#the-global-statement)
 - [`open()` Function](https://docs.python.org/3/library/functions.html#open)
 - [`KeyboardInterrupt` Exception](https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt)
-=======
 - [`KeyboardInterrupt` Exception](https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt)
->>>>>>> parent of 8c0a670... readme
