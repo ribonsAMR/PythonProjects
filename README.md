@@ -23,11 +23,12 @@
 - [`str.join()` Method](https://docs.python.org/3.6/library/stdtypes.html#str.join)
 - [`str.startswith()` Method](https://docs.python.org/3/library/stdtypes.html#str.startswith)
 - [`str.replace()` Method](https://docs.python.org/3/library/stdtypes.html#str.replace)
-- [`filter` Function](https://docs.python.org/3/library/functions.html#filter)
+- [`enumerate()` Function](https://docs.python.org/3/library/functions.html#enumerate)
+- [`filter()` Function](https://docs.python.org/3/library/functions.html#filter)
+- [`open()` Function](https://docs.python.org/3/library/functions.html#open)
 - [`lambda` Expression](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
 - [`lambda` Simple tutorial](https://www.programiz.com/python-programming/anonymous-function)
 - [`global` Statement](https://docs.python.org/3.6/reference/simple_stmts.html#the-global-statement)
-- [`open()` Function](https://docs.python.org/3/library/functions.html#open)
 - [`KeyboardInterrupt` Exception](https://docs.python.org/3.6/library/exceptions.html#KeyboardInterrupt)
 
 ### Recommended Tutorials:
