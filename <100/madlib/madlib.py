@@ -16,6 +16,10 @@ But what I do have are a very particular set of <plural>, <#plural> I have acqui
 I will not <verb> for you, I will not pursue you.
 But if you don't, I will <#verb> for you, I will find you, and I will <verb> you."""
 
+"""
+def cleanup(x):
+	return x.replace('<', '').replace('>', '').replace('#', '')
+"""
 
 def main():
 	global general_pattern, text
