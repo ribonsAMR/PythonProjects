@@ -1,16 +1,17 @@
 # PythonProjects
 #### These are some well-detailed projects written in Python for beginners and learners in general, with variety in difficulty levels.
 
-**Make sure to check out the [notebooks](http://jupyter.org/install) tutorials for the projects.**
+## Projects under 100 lines of code:
 
-## Projects under 100 sloc:
-1. [Dice Rolling](/under-100/dice)––Easy
-2. [Guess the number](/under-100/guess-the-number)––Easy
-3. [Simple Notepad/TextEditor](/under-100/notepad)––Easy
-4. [Hangman](/under-100/hangman)––A little bit complicated
-5. [Downloading using Threads](/under-100/downloading-with-concurrency)––Intermediate
+| Name | Difficulty (1 to 10)|
+| :------------- | :------------- |
+| [Dice Rolling Game](/under-100/dice) | • |
+| [Guess The Number Game](/under-100/guess-the-number) | • |
+| [Simple Notepad/TextEditor](/under-100/notepad) | • |
+| [Hangman Game](/under-100/hangman) | •• |
+| [Downloading using Threads](/under-100/downloading-with-concurrency) | •••• |
 
-## General References (Important):
+## General References:
 
 ### Methods, functions, statements and other things you will face in the scripts:
 
