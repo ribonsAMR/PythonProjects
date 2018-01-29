@@ -5,7 +5,7 @@
 | Name | Subjects | Difficulty |
 | :------------- | :------------- | :------------- |
 | [Dice Rolling Game](/<100/dice) | `random` module | • |
-| [Guess The Number Game](/<100/guess-the-number) | Functions, Error handling | • |
+| [Guess The Number Game](/<100/guess-the-number) | Functions<br>Error handling | • |
 | [Simple Notepad/TextEditor](/<100/notepad) | Working with files using `open()` function | • |
 | [Mad Lib Game](/<100/madlib) | Regex `re` module, `colorama` library, Operations on strings using `replace` method, `lambda` statements | •• |
 | [Hangman Game](/<100/hangman) | `random` module, `global` variables, Functions | •• |
