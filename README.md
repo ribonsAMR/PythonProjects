@@ -2,14 +2,14 @@
 
 ### Projects under 100 lines of code:
 
-| Name | Difficulty (1 to 10)|
+| Name | Subjects | Difficulty (1 to 10) |
 | :------------- | :------------- |
-| [Dice Rolling Game](/<100/dice) | • |
-| [Guess The Number Game](/<100/guess-the-number) | • |
-| [Simple Notepad/TextEditor](/<100/notepad) | • |
-| [Mad Lib Game](/<100/madlib) | •• |
-| [Hangman Game](/<100/hangman) | •• |
-| [Downloading using Concurrency](/<100/downloading-with-concurrency) | •••• |
+| [Dice Rolling Game](/<100/dice) | `random` module | • |
+| [Guess The Number Game](/<100/guess-the-number) | Functions, Error handling | • |
+| [Simple Notepad/TextEditor](/<100/notepad) | Working with files using `open()` function | • |
+| [Mad Lib Game](/<100/madlib) | Regex `re` module, `colorama` library, Operations on strings using `replace` method, `lambda` statements | •• |
+| [Hangman Game](/<100/hangman) | `random` module, `global` variables, Functions | •• |
+| [Downloading using Concurrency](/<100/downloading-with-concurrency) | Concurrency using Threads, Queues and Locks, Downloading files using `urllib.request.urlopen` function | ••• |
 
 ### General References:
 
