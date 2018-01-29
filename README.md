@@ -3,7 +3,7 @@
 ### Projects under 100 lines of code:
 
 | Name | Subjects | Difficulty (1 to 10) |
-| :------------- | :------------- |
+| :------------- | :------------- | :------------- |
 | [Dice Rolling Game](/<100/dice) | `random` module | • |
 | [Guess The Number Game](/<100/guess-the-number) | Functions, Error handling | • |
 | [Simple Notepad/TextEditor](/<100/notepad) | Working with files using `open()` function | • |
