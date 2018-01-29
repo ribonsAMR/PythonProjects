@@ -9,7 +9,7 @@
 | [Simple Notepad/TextEditor](/<100/notepad) | • |
 | [Mad Lib Game](/<100/madlib) | •• |
 | [Hangman Game](/<100/hangman) | •• |
-| [Downloading using Concurrency](/<100/downloading-with-concurrency) | •••• |
+| [Downloading using Concurrency](/<100/downloading-with-concurrency) | ••• |
 
 ### General References:
 
