@@ -2,7 +2,7 @@
 
 ### Projects under 100 lines of code:
 
-| Name | Subjects | Difficulty (1 to 10) |
+| Name | Subjects | Difficulty |
 | :------------- | :------------- | :------------- |
 | [Dice Rolling Game](/<100/dice) | `random` module | • |
 | [Guess The Number Game](/<100/guess-the-number) | Functions, Error handling | • |
