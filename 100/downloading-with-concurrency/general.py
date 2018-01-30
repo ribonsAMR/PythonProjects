@@ -9,7 +9,7 @@ lock = Lock()
 
 # Edit this to suit your needs
 # Note: Use a lock to prevent the race condition.
-def the_function():
+def the_function(arg):
 	pass
 
 class TheThread(Thread):
@@ -18,8 +18,8 @@ class TheThread(Thread):
 		self.queue = queue
 
 	def run(self):
-		self.queue.get()
-		the_function()
+		arg = self.queue.get()
+		the_function(arg)
 		self.queue.task_done()
 
 def main():
