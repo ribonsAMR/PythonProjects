@@ -1,4 +1,3 @@
-
 import secrets
 import string
 import argparse
@@ -19,7 +18,7 @@ def generator(length=8, ingre="uld"):
 
 def main():
 	#print(generator())
-	#print(phrasegenerator("t.txt"))
+	#print(phrasegenerator("wordlist.txt"))
 	parser = argparse.ArgumentParser()
 	parser.add_argument("length", default=8, type=int, help="Length of the password, the default is 8.")
 	parser.add_argument("-type", default="normal", help="Type of password, random characters [r] or phrase generated [p].")
