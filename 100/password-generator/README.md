@@ -12,9 +12,9 @@
 ## How to use:
 Usage: `python3.6 pwdgn.py [-h] [-i Ingredients] [-c count] length`
 
-`python3.6 pwdgn.py 10 -i uld -c 10`, This will generate *10* passwords with length of *10*, the password will be made of *(u)*pper and *(l)*ower cases with *(d)*igits.
+`python3.6 pwdgn.py 10 -i uld -c 10`, This will generate 10 passwords with length of 10, the password will be made of (u)pper and (l)ower cases with (d)igits.
 
-The available ingredients: *(u)*pper case, *(l)*ower case, *(d)*igits, *(p)*unctuations, just include the first character of each ingredient, eg. `ul` means upper and lower cases.
+The available ingredients: (u)pper case, (l)ower case, (d)igits, (p)unctuations, just include the first character of each ingredient, eg. `ul` means upper and lower cases.
 
 You can use just one ingredient. 
 
