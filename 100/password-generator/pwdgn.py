@@ -19,19 +19,19 @@ def generator(length=8, ingre="uld"):
 def main():
 	#print(generator())
 	#print(phrasegenerator("wordlist.txt"))
+	
 	parser = argparse.ArgumentParser()
-	parser.add_argument("length", default=8, type=int, help="Length of the password, the default is 8.")
-	parser.add_argument("-type", default="normal", help="Type of password, random characters [r] or phrase generated [p].")
 	parser.add_argument("-i", metavar="Ingredients", help="Ingredients [u, l, d, p]: Upper, lower, digits and punctuations.")
 	parser.add_argument("-c", default= 1, type=int, metavar="count")
-	parser.add_argument("-special", default=None, help="Generate a special format of password, eg. 'ulldp', will generate 3 letters, 1 digit and 1 punctuation.")
+	parser.add_argument("length", default=8, type=int, help="Length of the password, the default is 8.")
+	#parser.add_argument("-type", default="normal", help="Type of password, random characters [r] or phrase generated [p].")
+	#parser.add_argument("-special", default=None, help="Generate a special format of password, eg. 'ulldp', will generate 3 letters, 1 digit and 1 punctuation.")
 
 	args = parser.parse_args()
 
-	if args.type.lower() == "normal":
-		for i in range(args.c):
-			print(generator(args.length, args.i or "uld"))
-	
+	for i in range(args.c):
+		print(generator(args.length, args.i or "uld"))
+		
 
 if __name__ == '__main__':
 	main()
