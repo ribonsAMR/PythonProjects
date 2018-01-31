@@ -6,3 +6,5 @@ OnePlus
 Tesla
 IBM
 Google
+Facebook
+Twitter
