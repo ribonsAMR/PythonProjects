@@ -13,6 +13,7 @@ def main():
 
 			# Roll
 			print(random.choice(faces))
+
 	except KeyboardInterrupt:
 		print("\nGoodbye! 👋")
 		exit(0)
